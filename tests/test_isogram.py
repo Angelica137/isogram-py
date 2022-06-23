@@ -31,3 +31,7 @@ def test_isogram_returns_true_downstream():
 
 def test_isogram_returns_true_sixyearold():
     assert isogram("six-year-old") == True
+
+
+def test_eleven_returns_false():
+    assert isogram("eleven") == False
