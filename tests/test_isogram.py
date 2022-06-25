@@ -39,3 +39,7 @@ def test_eleven_returns_false():
 
 def test_Alphabet_returns_false():
     assert isogram("Alphabet") == False
+
+
+def test_Alphabet_returns_false():
+    assert isogram("alphAbet") == False
