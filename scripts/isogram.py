@@ -5,8 +5,4 @@ def isogram(word: str) -> bool:
             return False
         else:
             chars[word[i].lower()] = 1
-    print(chars)
     return True
-
-
-print(isogram("alphAbet"))
