@@ -35,3 +35,7 @@ def test_isogram_returns_true_sixyearold():
 
 def test_eleven_returns_false():
     assert isogram("eleven") == False
+
+
+def test_Alphabet_returns_false():
+    assert isogram("Alphabet") == False
