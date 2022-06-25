@@ -5,5 +5,5 @@ def isogram(word: str) -> bool:
             print(i)
             return False
         else:
-            chars[word[i]] = 1
+            chars[word[i].lower()] = 1
     return True
